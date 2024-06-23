@@ -7,5 +7,11 @@ public class Main {
 
         personel personel2 = new erkek("Ali","Çetin",1990);
         System.out.println(personel2.KalanYil());
+
+        personel personel3 = new kadin("Özgül","Göknur",1987);
+        System.out.println(personel3.KalanYil());
+
+        Department department = new Department("HR", personel3);
+
         }
     }
